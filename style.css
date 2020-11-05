@@ -1,0 +1,133 @@
+body {
+    background-color: rgb(243, 242, 242);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+  }
+  
+  h1 {
+    color: rgb(6, 43, 58);
+    text-align: center;
+  }
+
+  h2 {
+    color: rgb(6, 43, 58);
+    text-align: center;
+  }
+
+  h3 {
+    color: rgb(6, 43, 58);
+    margin: 0px 3px 3px 5px;
+  }
+  
+  p {
+    font-size: 20px;
+    margin: 25px 50px 75px 100px;
+  }
+
+
+  .copyright{
+      text-align: center;
+      margin-bottom: 0;
+      background-color: lightsteelblue;
+  }
+
+  button {
+    border-radius: 3px;
+    background-color: rgb(135, 148, 224);
+  }
+  
+  img {
+    border-radius: 8px;
+  }
+
+.main-nav ul  {
+    background:black;
+    width:100%;
+    float:right;
+     background: lightsteelblue;
+     text-align:right;
+     height:40px;
+}
+
+.main-nav ul li{
+     display:inline-block;
+     text-align: center;
+     margin-left: 5px;
+}
+
+.logo { 
+    float: left;
+    display: inline-block;
+}
+
+
+a {
+    display: block;
+    padding: 3px;
+    /* background-color: lightslategray; */
+  }
+
+ul {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    border: 2px solid #e7e7e7;
+    background-color: #f3f3f3;
+  }
+
+  li {
+    /* float: right; */
+    display: inline;
+  }
+  
+  li a {
+    display: block;
+    color: rgb(15, 15, 15);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: gray;
+  }
+
+
+
+  div {
+    margin-top: 20px;
+    padding-top: 2px;
+  }
+
+  .grid-container {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .grid-container-button {
+    display: flex;
+    justify-content: space-evenly;
+    width: 300px;
+    margin: auto;
+  }
+
+
+  @media only screen and (max-width: 535px) {
+    .header {
+      font-size: 14px;
+    }
+  
+    .header a {
+      padding: 30px 20px;
+    }
+  
+  }
+
+  @media (max-width: 800px) {
+    .grid-container {
+      flex-direction: column;
+      justify-content: center;
+    }
+  }
